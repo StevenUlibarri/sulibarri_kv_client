@@ -1,0 +1,13 @@
+{application, sulibarri_dht_client,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  lager,
+                  stdlib
+                 ]},
+  {mod, { sulibarri_dht_client_app, []}},
+  {env, []}
+ ]}.
